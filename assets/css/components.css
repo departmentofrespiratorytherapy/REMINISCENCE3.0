@@ -1813,3 +1813,110 @@
   color: var(--gold-500);
   font-size: 0.85rem;
 }
+/* MOBILE FULL WIDTH FIX */
+@media (max-width: 600px) {
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .hero {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+    padding: 85px 0 100px;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 18px;
+    margin: 0 auto;
+  }
+
+  .hero-title {
+    font-size: clamp(2.4rem, 12vw, 4rem);
+    line-height: 0.95;
+    max-width: 100%;
+    overflow-wrap: normal;
+  }
+
+  .hero-theme {
+    max-width: 100%;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .hero-meta {
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .hero-meta-item {
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 0.78rem;
+  }
+
+  .hero-countdown {
+    width: 100%;
+    max-width: 100%;
+    gap: 5px;
+  }
+
+  .countdown-item {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .countdown-num {
+    font-size: clamp(1.7rem, 8vw, 2.8rem);
+  }
+
+  .countdown-sep {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+  }
+
+  .hero-ctas {
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .section {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .speakers-grid,
+  .committee-grid,
+  .gratitude-grid {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .speaker-card,
+  .committee-card,
+  .gratitude-card {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+}
