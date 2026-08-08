@@ -178,9 +178,9 @@ const GRATITUDE_DATA = [
   },
   {
     id: 103,
-    name: 'Mr.Henry Abhram',
+    name: 'Mr.Henry Abraham',
     photo: 'assets/images/committee/Gratitude/person3.jpg',
-    designation: 'BSRT,Manager Department Of Respiraatory Therapy,RRT Head,kauvery Hospital,Bangalore',
+    designation: 'BSRT,Senior Respiratory Therapist,Manager,Team Lead RRT,Department Of Respiratory Therapy,kauvery Hospital,Marathahalli,Bangalore',
   },
   {
     id: 104,
