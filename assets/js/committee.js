@@ -166,39 +166,44 @@ function renderCommittee() {
 ──────────────────────────────────────────────────────────── */
 const GRATITUDE_DATA = [
   {
-    id: 101,
-    name: 'Mr.Amal Joseph',
+     id: 101,
+    name: 'Mr.Vysakh P.R',
     photo: 'assets/images/committee/Gratitude/person1.jpg',
     designation: 'BSRT,MSRT,FNIV,Senior Respiratory Therapist- Critical Care & ECMO services,Burjeel Holdings,Abu Dhabi,UAE.',
   },
-  {
-    id: 102,
-    name: 'Mr.Henry Abhram',
+     id: 102,
+    name: 'Mr.Amal Joseph',
     photo: 'assets/images/committee/Gratitude/person2.jpg',
-    designation: 'BSRT,Manager Department Of Respiraatory Therapy,RRT Head,kauvery Hospital,Bangalore',
+    designation: 'BSRT,MSRT,FNIV,Senior Respiratory Therapist- Critical Care & ECMO services,Burjeel Holdings,Abu Dhabi,UAE.',
   },
   {
     id: 103,
-    name: 'Mr.Mohammed Unnais',
+    name: 'Mr.Henry Abhram',
     photo: 'assets/images/committee/Gratitude/person3.jpg',
-    designation: 'BSRT,Hamad Medical Corporation,Qatar',
+    designation: 'BSRT,Manager Department Of Respiraatory Therapy,RRT Head,kauvery Hospital,Bangalore',
   },
   {
     id: 104,
-    name: 'Ms.Maria Shalian',
+    name: 'Mr.Mohammed Unnais',
     photo: 'assets/images/committee/Gratitude/person4.jpg',
+    designation: 'BSRT,Hamad Medical Corporation,Qatar',
+  },
+  {
+    id: 105,
+    name: 'Ms.Maria Shalian',
+    photo: 'assets/images/committee/Gratitude/person5.jpg',
     designation: 'BSRT,Registered Respiratory Physiologist,Lincoln,England,UK',
   },
    {
-    id: 105,
+    id: 106,
     name: 'Mr.Sherin Thomas',
-    photo: 'assets/images/committee/Gratitude/person5.jpg',
+    photo: 'assets/images/committee/Gratitude/person6.jpg',
     designation: 'BSRT,Respiratory Therapist,Royal Hospital',
   },
    {
-    id: 106,
+    id: 107,
     name: 'Mr.Franklin Biony Jestin',
-    photo: 'assets/images/committee/Gratitude/person6.jpg',
+    photo: 'assets/images/committee/Gratitude/person7.jpg',
     designation: 'BSRT,MBA,Respiratory Therapist Sheikh Shakhbout Medical City,Abu Dhabi',
   },
 ];
