@@ -25,7 +25,7 @@ const CONFIG = {
      assets/brochure/ and update brochureFile path.
   ──────────────────────────────────────────────────────────── */
   brochureFile:  'assets/brochure.pdf',
-  brochureReady: false,
+  brochureReady: true,
 
   /* ── CONTACT ──────────────────────────────────────────────── */
   contact: {
