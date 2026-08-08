@@ -48,7 +48,7 @@ const PATRONS_DATA = [
 
 /* ── COMMITTEE DATA (21 members) ────────────────────────── */
 const COMMITTEE_DATA = [
-  { id: 1,  name: 'Ms. Meenu Mary Paul', role:'Senior Respiratory Therapist',department: 'Adult Critical Care',   photo:'assets/images/committee/Meenu.jpg' },
+  { id: 1,  name: 'Ms. Meenu Mary Paul', role:'Senior Respiratory Therapist',department: 'Adult Critical Care',   photo:'assets/images/committee/meenu.jpg' },
   { id: 2,  name: 'Mr. Sreedhar', role: 'Senior Respiratory Therapist', department: 'Interventional Pulmonology', photo: 'assets/images/committee/sreedhar.jpg' },
   { id: 3,  name: 'Mr. Hafiz', role: 'Senior Respiratory Therapist',department: 'Adult Critical Care',photo: 'assets/images/committee/hafiz.jpg' },
   { id: 4,  name: 'Ms. Dilsha', role: 'Senior Respiratory Therapist', department: 'Adult Critical Care',photo: 'assets/images/committee/dilsha.jpg' },
