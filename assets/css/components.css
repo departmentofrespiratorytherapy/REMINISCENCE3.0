@@ -1813,110 +1813,351 @@
   color: var(--gold-500);
   font-size: 0.85rem;
 }
-/* MOBILE FULL WIDTH FIX */
+/* ============================================================
+   FINAL MOBILE RESPONSIVE FIX — REMINISCENCE 3.0
+   ============================================================ */
+
 @media (max-width: 600px) {
+
+  /* ---------- GLOBAL MOBILE WIDTH ---------- */
 
   html,
   body {
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
   }
 
-  .hero {
-    width: 100%;
-    max-width: 100%;
-    min-width: 0;
-    overflow: hidden;
-    padding: 85px 0 100px;
-  }
-
-  .hero-content {
-    width: 100%;
-    max-width: 100%;
+  *,
+  *::before,
+  *::after {
     box-sizing: border-box;
-    padding: 0 18px;
-    margin: 0 auto;
-  }
-
-  .hero-title {
-    font-size: clamp(2.4rem, 12vw, 4rem);
-    line-height: 0.95;
     max-width: 100%;
-    overflow-wrap: normal;
   }
 
-  .hero-theme {
-    max-width: 100%;
-    font-size: 0.9rem;
-    line-height: 1.5;
-  }
-
-  .hero-meta {
+  .container {
     width: 100%;
     max-width: 100%;
-    flex-direction: column;
-    gap: 4px;
-  }
-
-  .hero-meta-item {
-    max-width: 100%;
-    text-align: center;
-    justify-content: center;
-    font-size: 0.78rem;
-  }
-
-  .hero-countdown {
-    width: 100%;
-    max-width: 100%;
-    gap: 5px;
-  }
-
-  .countdown-item {
-    min-width: 0;
-    flex: 1;
-  }
-
-  .countdown-num {
-    font-size: clamp(1.7rem, 8vw, 2.8rem);
-  }
-
-  .countdown-sep {
-    font-size: 1.6rem;
-    margin-bottom: 12px;
-  }
-
-  .hero-ctas {
-    width: 100%;
-    max-width: 100%;
-    flex-direction: column;
-  }
-
-  .hero-ctas .btn {
-    width: 100%;
-    max-width: 100%;
-    justify-content: center;
-    box-sizing: border-box;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .section {
     width: 100%;
     max-width: 100%;
+    overflow-x: hidden;
+  }
+
+
+  /* ---------- HERO TITLE ---------- */
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
     overflow: hidden;
   }
 
-  .speakers-grid,
-  .committee-grid,
-  .gratitude-grid {
+  .hero-title {
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(2rem, 10vw, 3.2rem) !important;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    white-space: normal !important;
+    overflow-wrap: break-word;
+    word-break: normal;
+    text-align: center;
+  }
+
+  .hero-title .hero-number {
+    display: inline;
+    white-space: nowrap;
+  }
+
+  .hero-theme {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 8px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: center;
+    overflow-wrap: break-word;
+  }
+
+
+  /* ---------- HERO META ---------- */
+
+  .hero-meta {
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-meta-item {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+
+  /* ---------- COUNTDOWN ---------- */
+
+  .hero-countdown {
+    width: 100%;
+    max-width: 100%;
+    gap: 2px;
+    justify-content: space-between;
+  }
+
+  .countdown-item {
+    min-width: 0 !important;
+    width: 25%;
+    flex: 1 1 25%;
+  }
+
+  .countdown-num {
+    font-size: clamp(1.5rem, 8vw, 2.5rem);
+  }
+
+  .countdown-label {
+    font-size: 0.55rem;
+    letter-spacing: 0.12em;
+  }
+
+  .countdown-sep {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+  }
+
+
+  /* ---------- BUTTONS ---------- */
+
+  .hero-ctas,
+  .hero-ctas .btn {
     width: 100%;
     max-width: 100%;
   }
 
-  .speaker-card,
-  .committee-card,
-  .gratitude-card {
+  .hero-ctas .btn {
+    white-space: normal;
+  }
+
+
+  /* ---------- SECTION HEADERS ---------- */
+
+  .section-header {
+    width: 100%;
     max-width: 100%;
-    box-sizing: border-box;
+    padding-left: 4px;
+    padding-right: 4px;
+    overflow: hidden;
+  }
+
+  .section-title {
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(1.9rem, 9vw, 2.7rem);
+    line-height: 1.2;
+    overflow-wrap: break-word;
+  }
+
+  .section-subtitle {
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+
+  /* ---------- VENUE / MAP ---------- */
+
+  .venue-grid {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .venue-map-container {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 360px;
+    min-height: 360px;
+    overflow: hidden;
+    border-radius: 24px;
+  }
+
+  .venue-map-container iframe {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    min-height: 360px !important;
+    display: block;
+  }
+
+  .venue-info {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 28px 22px;
+  }
+
+  .venue-name {
+    font-size: 1.7rem;
+    overflow-wrap: break-word;
+  }
+
+  .venue-detail-item {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .venue-detail-item div {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .venue-detail-item strong,
+  .venue-detail-item span {
+    overflow-wrap: anywhere;
+  }
+
+
+  /* ---------- CONTACT SECTION ---------- */
+
+  .contact-grid {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .contact-cards,
+  .contact-aside {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .contact-card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 20px 18px;
+    gap: 14px;
+    overflow: hidden;
+  }
+
+  .contact-icon-wrap {
+    flex: 0 0 52px;
+  }
+
+  .contact-text {
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contact-text h4,
+  .contact-text p {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    white-space: normal !important;
+  }
+
+  .contact-text p {
+    font-size: 0.9rem;
+  }
+
+  .contact-arrow {
+    flex: 0 0 auto;
+  }
+
+
+  /* ---------- FOLLOW US ---------- */
+
+  .social-card,
+  .register-card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 28px 22px;
+    overflow: hidden;
+  }
+
+  .social-card p,
+  .register-card p {
+    width: 100%;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    white-space: normal;
+  }
+
+  .social-links {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .social-pill {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .social-pill span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    white-space: normal;
+  }
+
+
+  /* ---------- REGISTER CARD ---------- */
+
+  .register-card .btn {
+    width: 100% !important;
+    max-width: 100%;
+    white-space: normal;
+  }
+
+
+  /* ---------- FOOTER ---------- */
+
+  .footer-content {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: 1fr !important;
+  }
+
+  .footer-brand,
+  .footer-links-col,
+  .footer-cta-col {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .footer-title {
+    font-size: 1.6rem;
+    overflow-wrap: break-word;
   }
 
 }
