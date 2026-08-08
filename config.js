@@ -24,7 +24,7 @@ const CONFIG = {
      Set brochureReady: true once the PDF is placed in
      assets/brochure/ and update brochureFile path.
   ──────────────────────────────────────────────────────────── */
-  brochureFile:  'assets/brochure/brochure.pdf',
+  brochureFile:  'assets/brochure.pdf',
   brochureReady: false,
 
   /* ── CONTACT ──────────────────────────────────────────────── */
