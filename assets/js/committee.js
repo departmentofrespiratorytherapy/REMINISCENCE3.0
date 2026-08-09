@@ -165,46 +165,41 @@ function renderCommittee() {
      • Leave photo: '' to use a generated initial avatar
 ──────────────────────────────────────────────────────────── */
 const GRATITUDE_DATA = [
-  {
-     id: 101,
-    name: 'Mr.Vysakh P.R',
-    photo: 'assets/images/committee/Gratitude/person1.jpg',
-    designation: 'BSRT,MSRT,FNIV,Senior Respiratory Therapist- Critical Care & ECMO services,Burjeel Holdings,Abu Dhabi,UAE.',
-  },
+  
      {
-    id: 102,
+    id: 101,
     name: 'Mr.Amal Joseph',
-    photo: 'assets/images/committee/Gratitude/person2.jpg',
+    photo: 'assets/images/committee/Gratitude/person1.jpg',
     designation: 'BSRT, MSRT, FNIV, Senior Respiratory Therapist - Critical Care & ECMO Services, Burjeel Holdings, Abu Dhabi, UAE.',
   },
   {
-    id: 103,
+    id: 102,
     name: 'Mr.Henry Abraham',
-    photo: 'assets/images/committee/Gratitude/person3.jpg',
+    photo: 'assets/images/committee/Gratitude/person2.jpg',
     designation: 'BSRT,Senior Respiratory Therapist,Manager,Team Lead RRT,Department Of Respiratory Therapy,kauvery Hospital,Marathahalli,Bangalore',
   },
   {
-    id: 104,
+    id: 103,
     name: 'Mr.Mohammed Unnais',
-    photo: 'assets/images/committee/Gratitude/person4.jpg',
+    photo: 'assets/images/committee/Gratitude/person3.jpg',
     designation: 'BSRT,Hamad Medical Corporation,Qatar',
   },
   {
-    id: 105,
+    id: 104,
     name: 'Ms.Maria Shalian',
-    photo: 'assets/images/committee/Gratitude/person5.jpg',
+    photo: 'assets/images/committee/Gratitude/person4.jpg',
     designation: 'BSRT,Registered Respiratory Physiologist,Lincoln,England,UK',
   },
    {
-    id: 106,
+    id: 105,
     name: 'Mr.Sherin Thomas',
-    photo: 'assets/images/committee/Gratitude/person6.jpg',
+    photo: 'assets/images/committee/Gratitude/person5.jpg',
     designation: 'BSRT,Respiratory Therapist,Royal Hospital',
   },
    {
-    id: 107,
+    id: 106,
     name: 'Mr.Franklin Biony Jestin',
-    photo: 'assets/images/committee/Gratitude/person7.jpg',
+    photo: 'assets/images/committee/Gratitude/person6.jpg',
     designation: 'BSRT,MBA,Respiratory Therapist Sheikh Shakhbout Medical City,Abu Dhabi',
   },
 ];
