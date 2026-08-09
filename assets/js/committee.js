@@ -171,10 +171,11 @@ const GRATITUDE_DATA = [
     photo: 'assets/images/committee/Gratitude/person1.jpg',
     designation: 'BSRT,MSRT,FNIV,Senior Respiratory Therapist- Critical Care & ECMO services,Burjeel Holdings,Abu Dhabi,UAE.',
   },
-     id: 102,
+     {
+    id: 102,
     name: 'Mr.Amal Joseph',
     photo: 'assets/images/committee/Gratitude/person2.jpg',
-    designation: 'BSRT,MSRT,FNIV,Senior Respiratory Therapist- Critical Care & ECMO services,Burjeel Holdings,Abu Dhabi,UAE.',
+    designation: 'BSRT, MSRT, FNIV, Senior Respiratory Therapist - Critical Care & ECMO Services, Burjeel Holdings, Abu Dhabi, UAE.',
   },
   {
     id: 103,
