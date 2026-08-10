@@ -198,7 +198,7 @@ const GRATITUDE_DATA = [
   },
    {
     id: 106,
-    name: 'Mr.Franklin Biony',
+    name: 'Mr.Franklin Binoy Jestin',
     photo: 'assets/images/committee/Gratitude/person6.jpg',
     designation: 'BSRT,MBA,Respiratory Therapist Sheikh Shakhbout Medical City,Abu Dhabi',
   },
