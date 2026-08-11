@@ -180,9 +180,9 @@ const GRATITUDE_DATA = [
   },
   {
     id: 103,
-    name: 'Mr.Mohammed Unnais',
+    name: 'Mr.Muhammed Unais',
     photo: 'assets/images/committee/Gratitude/person3.jpg',
-    designation: 'BSRT,Hamad Medical Corporation,Qatar',
+    designation: 'Registered Resepiratory Therapist,Hamad Medical Corporation,Qatar',
   },
   {
     id: 104,
