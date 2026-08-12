@@ -50,7 +50,7 @@ His areas of clinical expertise include bronchoscopy, EBUS, pleuroscopy, pleural
     id: 3,
     name: 'Dr.Amrutha.H',
     photo: 'assets/images/speakers/speaker3.png',
-    qualifications: 'MBBS-General Physician, MD-Pulmonologist',
+    qualifications: 'MBBS,DTCD,DNB',
     designation: 'Consultant pulmonology',
     department: 'Department Of Pulmonology',
     institution: 'Apollo Hospital - Bannerghatta',
@@ -93,7 +93,7 @@ He also provides comprehensive care for non-malignant respiratory conditions inc
   },
   {
     id: 6,
-    name: 'Dr.Goutham',
+    name: 'Dr.Gowtham',
     photo: 'assets/images/speakers/speaker6.png',
     qualifications: 'MBBS, DTCD, DNB resident',
     designation: 'PG Resident In Pulmonology',
