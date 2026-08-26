@@ -61,24 +61,14 @@ His areas of clinical expertise include bronchoscopy, EBUS, pleuroscopy, pleural
   },
   {
     id: 4,
-    name: 'Dr.Mallikarjun',
+    name: 'Dr.Aravindh Ram V R',
     photo: 'assets/images/speakers/speaker4.png',
-    qualifications: 'MBBS, DTCD, DNB (Pulmonary Medicine)',
-    designation: 'Consultant Pulmonology',
+    qualifications: 'MBBS,MD,DNB(Respiratory Medicine)',
+    designation: 'Assistant Professor',
     department: 'Department Of Pulmonology',
-    institution: 'HCG Hospital, Hebbal',
+    institution: 'Rajiv Gandhi Institute Of Chest Disease',
     city: 'Bangalore, India',
     topic: 'Rigid Bronchoscopy',
-     bio: `Dr. Mallikarjun is a skilled Consultant in Interventional Pulmonology and Sleep Medicine with expertise in the diagnosis and management of lung cancer, thoracic cancers, and a wide range of respiratory conditions. His clinical expertise includes advanced bronchoscopic and pleural interventions such as bronchoscopy, rigid bronchoscopy, EBUS/TBNA, thoracoscopy, airway stenting, tumor debulking, indwelling pleural catheter insertion, and management of malignant pleural effusion.
-
-He also provides comprehensive care for non-malignant respiratory conditions including bronchial asthma, allergies, chronic obstructive pulmonary disease, tuberculosis, interstitial lung disease, and pleural effusion. He has a special interest in thoracic oncology, early lung cancer screening, diagnosis and management, as well as palliative interventions and pulmonary complications associated with cancer treatment. He also has expertise in lung transplant evaluation and holds a fellowship in allergy and asthma testing.`,
-  expertise: [
-    'Interventional Pulmonology | Bronchoscopy | Rigid Bronchoscopy | EBUS/TBNA',
-    'Thoracic Oncology | Lung Cancer Screening | Tumor Debulking',
-    'Thoracoscopy | Airway Stenting | ICD & Indwelling Pleural Catheter',
-    'Pleural Interventions | Malignant Pleural Effusion | Pleural Biopsy',
-    'Lung Transplant Evaluation | Asthma | COPD | ILD | Tuberculosis'
-  ],
   },
   {
     id: 5,
